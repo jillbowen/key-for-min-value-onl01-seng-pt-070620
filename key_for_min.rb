@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
       lowest_name << name
     end
  end
-  lowest_name
+  lowest_name.to_s 
 end
